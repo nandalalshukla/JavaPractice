@@ -8,7 +8,7 @@ public class Four {
         String text1 = inp.nextLine();
                 System.out.println("Enter text2.");
         String text2 = inp.nextLine();
-        System.out.println(
+        System.out.printf(
                 "Choose the method you want to use on the text.%n1: UPC%2: LWC %n3: equals%n 4: trim%n 5: split%n 6: replace %n 7: charat%n8: Length%n 9: concat %n______________________");
         int choice = inp.nextInt();
         switch (choice) {
